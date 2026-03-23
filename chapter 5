@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Embedded Video</title>
+    <style>
+        /* Global Styles */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full screen height */
+            background-color: #000; /* Black background for video */
+            color: #fff;
+        }
+
+        /* Video Styling */
+        video {
+            max-width: 90%;
+            border: 3px solid #8c15e9; /* Purple border to make it look nicer */
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(140, 21, 233, 0.7);
+        }
+
+        /* Optional: Instruction Text Below Video */
+        .note {
+            position: absolute;
+            bottom: 20px;
+            text-align: center;
+            width: 100%;
+            font-size: 14px;
+            color: #fff;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <!-- Embedded Video -->
+    <video controls loop poster="poster.jpg">
+        <source src="your-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- Optional Note -->
+    <div class="note">Use controls to play, pause, or adjust volume</div>
+</body>
+</html>
