@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DigiFest Cardiff 2026</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 0; 
+            background-color: #fff;
+            color: #000;
+        }
+        header { 
+            background: #17072b; 
+            color: white; 
+            padding: 20px; 
+            text-align: center; 
+        }
+        header h1 { 
+            font-family: Tahoma, sans-serif; 
+            font-weight: 700; 
+            font-size: 3rem; 
+            margin: 0;
+        }
+        nav { 
+            margin-top: 10px;
+        }
+        nav a { 
+            color: white; 
+            margin: 0 12px; 
+            text-decoration: none; 
+        }
+        main { 
+            display: flex; 
+            flex-wrap: wrap;
+            max-width: 1200px; 
+            margin: 20px auto; 
+            gap: 20px;
+        }
+        .welcome { 
+            flex: 3; 
+            padding: 20px; 
+            background: #f4f4f4;
+            border-radius: 5px;
+        }
+        .welcome img {
+            width: 100%;
+            height: auto;
+            margin-top: 15px;
+            border-radius: 5px;
+        }
+        .line-up { 
+            flex: 1; 
+            background: #172d67; 
+            color: white; 
+            padding: 20px; 
+            border-radius: 5px;
+        }
+        .line-up img { 
+            width: 100%; 
+            margin: 10px 0; 
+            border: 4px solid white; 
+            border-radius: 5px;
+        }
+        footer { 
+            background: #8c15e9; 
+            color: white; 
+            text-align: center; 
+            padding: 20px; 
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>DIGIFEST CARDIFF</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Schedule</a>
+            <a href="#">Speakers</a>
+            <a href="#">Tickets</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- Welcome Section -->
+        <section class="welcome">
+            <h2>About DigiFest</h2>
+            <p>Welcome to DigiFest, Cardiff’s celebration of technology and innovation. This year’s theme is <strong>Collaboration in Tech</strong>. Come and experience inspiring talks, workshops, and hands-on activities for everyone from beginners to tech enthusiasts.</p>
+            <img src="https://picsum.photos/id/1025/600/300" alt="Tech presentation">
+        </section>
+        
+        <!-- Line-Up Section -->
+        <aside class="line-up">
+            <h2>Workshop Line-Up</h2>
+            <ul>
+                <li>HTML & CSS Basics</li>
+                <li>Responsive Design</li>
+                <li>Introduction to JavaScript</li>
+            </ul>
+            <img src="https://picsum.photos/id/1060/250/250" alt="Workshop 1">
+            <img src="https://picsum.photos/id/1062/250/250" alt="Workshop 2">
+        </aside>
+    </main>
+    
+    <footer>
+        &copy; 2026 DigiFest Cardiff. All rights reserved.
+    </footer>
+</body>
+</html>
