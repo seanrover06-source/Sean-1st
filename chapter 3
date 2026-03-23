@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nature Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Nature Image Gallery</h1>
+
+    <!-- IMAGE 1 -->
+    <div class="image-box">
+        <img src="https://tse2.mm.bing.net/th/id/OIP.xWV7h45BfwNZAK9Id_CPKQHaEK?w=1920&h=1080&rs=1&pid=ImgDetMain&o=7&rm=3"
+             alt="A green forest with sunlight passing through trees"
+             width="300"
+             height="200"
+             title="Forest Scene">
+
+        <p class="license">
+            
+        </p>
+    </div>
+
+    <!-- IMAGE 2 -->
+    <div class="image-box">
+        <img src="https://tse1.mm.bing.net/th/id/OIP.pY7LykoNXAtbecPHZeYZwAHaE8?rs=1&pid=ImgDetMain&o=7&rm=3"
+             alt="Snow-covered mountain landscape"
+             width="300"
+             height="200"
+             title="Mountain Scene">
+
+        <p class="license">
+            
+        </p>
+    </div>
+
+    <!-- IMAGE 3 -->
+    <div class="image-box">
+        <img src="https://wallpaperaccess.com/full/1166676.jpg"
+             alt="Ocean waves during sunset"
+             width="300"
+             height="200"
+             title="Ocean Scene">
+
+        <p class="license">
+        
+        </p>
+    </div>
+
+</body>
+</html>
