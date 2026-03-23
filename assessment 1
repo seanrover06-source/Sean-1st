@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spaghetti Recipe</title>
+</head>
+<body>
+
+    <!-- This is the main title of the recipe -->
+    <h1>Simple Spaghetti Recipe</h1>
+
+    <!-- This paragraph describes the recipe -->
+    <p>
+        This is my favorite spaghetti recipe because it is easy to cook and tastes really good.
+        It is perfect for beginners and does not require too many ingredients.
+    </p>
+
+    <!-- This is the ingredients section -->
+    <h2>Ingredients</h2>
+
+    <!-- Unordered list for ingredients -->
+    <ul>
+        <li>200g spaghetti</li>
+        <li>2 cups tomato sauce</li>
+        <li>1 onion (chopped)</li>
+        <li>2 cloves garlic (minced)</li>
+        <li>Ground beef</li>
+        <li>Salt and pepper</li>
+        <li>Cooking oil</li>
+    </ul>
+
+    <!-- This is the method section -->
+    <h2>Method</h2>
+
+    <!-- Ordered list for step-by-step procedure -->
+    <ol>
+        <li>Boil water in a pot and cook the spaghetti according to the package instructions.</li>
+        <li>Heat oil in a pan and sauté the onion and garlic.</li>
+        <li>Add the ground beef and cook until brown.</li>
+        <li>Pour the tomato sauce and let it simmer for 10 minutes.</li>
+        <li>Add salt and pepper to taste.</li>
+        <li>Drain the spaghetti and mix it with the sauce.</li>
+        <li>Serve hot and enjoy your meal.</li>
+    </ol>
+
+</body>
+</html>
